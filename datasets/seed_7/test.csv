@@ -1,0 +1,295 @@
+Sorgu,Yanit,Label
+"Maalesef sağlıklı domates belirtileri hakkında bilgi verir misin?, ne yapmam gerekiyor?","Sınıf: Tomato___healthy
+Teşhis: Sağlıklı Domates. Öneri: Bitkiniz gayet sağlıklı gelişim göstermektedir. Düzenli sulama ve budama yapmaya devam edin.",Tomato___healthy
+Ince ağlar domateslerimi sarmaya başladı.,"Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
+Sanırım bitkimde bir sorun var: bitki yapraklarının üzerinde sarı yaprak kıvırcıklığı görüyorum..,"Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Yeni çıkan yapraklarda mozaik virüsü görüyorum.,"Sınıf: Tomato___Tomato_mosaic_virus
+Teşhis: Domates Mozaik Virüsü. Kültürel Önlemler: Mekanik yolla kolay bulaşır. Dokunmadan önce eller sabunla yıkanmalıdır. Bulaşık bitkiler imha edilmelidir.",Tomato___Tomato_mosaic_virus
+Acil teşhis lazım: tarladaki yapraklarda bodur büyüme yayıldı..,"Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+"Çiftçi arkadaşlara sordum, hocam halkalı lekeler için hangi ilacı kullanmalıyım? dediler.","Sınıf: Potato___Early_blight
+Teşhis: Patates Erken Yanıklığı. Kültürel Önlemler: Dengeli gübreleme ve sulama yapın. Kimyasal Mücadele: Kahverengi, halkalı lekeler görüldüğünde fungisit uygulanmalıdır.",Potato___Early_blight
+"Bitkimin durumuna bakar mısın, lekesiz patates fidesi var gibi.","Sınıf: Potato___healthy
+Teşhis: Sağlıklı Patates. Öneri: Patates bitkiniz sağlıklı durumdadır. Boğaz doldurma ve sulama işlemlerini zamanında yapın.",Potato___healthy
+"Acil teşhis lazım: geçen gün küçük gri odaklı noktalar şüphesiyle baktım, sanırım öyle..","Sınıf: Tomato___Septoria_leaf_spot
+Teşhis: Domates Septoria Yaprak Lekesi. Kültürel Önlemler: Sulamayı sabah erken saatlerde yapın ki yapraklar kurusun. Kimyasal Mücadele: Belirtiler saptandığında mantar ilaçları uygulayın.",Tomato___Septoria_leaf_spot
+Bitki yapraklarının üzerinde alt yapraklarda kuruma görüyorum.,"Sınıf: Tomato___Early_blight
+Teşhis: Domates Erken Yanıklığı. Kültürel Önlemler: Alt yaprakları budayarak hava akımını artırın. Yağmurlama sulamadan kaçının. Kimyasal Mücadele: Tescilli fungisitlerle ilaçlama yapın.",Tomato___Early_blight
+"Maalesef lekesiz gövde ile nasıl mücadele edilir?, ne yapmam gerekiyor?","Sınıf: Tomato___healthy
+Teşhis: Sağlıklı Domates. Öneri: Bitkiniz gayet sağlıklı gelişim göstermektedir. Düzenli sulama ve budama yapmaya devam edin.",Tomato___healthy
+"Çiftçi arkadaşlara sordum, bitkimde gri yaprak lekesi fark ettim. dediler.","Sınıf: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Teşhis: Mısır Gri Yaprak Lekesi (Cercospora). Kültürel Önlemler: Hasat sonrası bitki artıklarını derine gömün. Münavebe uygulayın. Kimyasal Mücadele: Tescilli fungisitler kullanılmalıdır.",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+"Çiftçi arkadaşlara sordum, yeni çıkan yapraklarda geç yanıklık görüyorum. dediler.","Sınıf: Potato___Late_blight
+Teşhis: Patates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Sık dikimden kaçının. Kimyasal Mücadele: Uygun sıcaklık ve nem koşullarında belirti beklenmeden koruyucu mildiyö ilaçları kullanılmalıdır.",Potato___Late_blight
+"Çiftçi arkadaşlara sordum, bitkimin durumuna bakar mısın, alt yapraklarda kuruma var gibi. dediler.","Sınıf: Tomato___Early_blight
+Teşhis: Domates Erken Yanıklığı. Kültürel Önlemler: Alt yaprakları budayarak hava akımını artırın. Yağmurlama sulamadan kaçının. Kimyasal Mücadele: Tescilli fungisitlerle ilaçlama yapın.",Tomato___Early_blight
+Acil yardım! bitkide puro tipi uzun gri lekeler var.,"Sınıf: Corn_(maize)___Northern_Leaf_Blight
+Teşhis: Mısır Kuzey Yaprak Yanıklığı. Kültürel Önlemler: Hastalıklı bitki artıklarını yok edin. Kimyasal Mücadele: Çiçeklenme öncesi sistemik mantar ilaçları tercih edilmelidir.",Corn_(maize)___Northern_Leaf_Blight
+"Çiftçi arkadaşlara sordum, yapraklarda sağlıklı mısır var, ne yapabilirim? dediler.","Sınıf: Corn_(maize)___healthy
+Teşhis: Sağlıklı Mısır. Öneri: Bitkiniz tamamen sağlıklı görünmektedir. Mevcut sulama ve gübreleme programınıza devam edin.",Corn_(maize)___healthy
+Yapraklara baktığımda bitkimin ana sorunu turuncu püstüller. fark ediyorum.,"Sınıf: Corn_(maize)___Common_rust_
+Teşhis: Mısır Adi Pas Hastalığı. Kültürel Önlemler: Dayanıklı çeşitler seçilmeli, aşırı azottan kaçınılmalıdır. Kimyasal Mücadele: Uygun bir fungisit ile ilaçlama yapılmalıdır.",Corn_(maize)___Common_rust_
+Yapraklara baktığımda yaprağın her yerini koyu kenarlı dairesel lekeler kaplamış. fark ediyorum.,"Sınıf: Tomato___Septoria_leaf_spot
+Teşhis: Domates Septoria Yaprak Lekesi. Kültürel Önlemler: Sulamayı sabah erken saatlerde yapın ki yapraklar kurusun. Kimyasal Mücadele: Belirtiler saptandığında mantar ilaçları uygulayın.",Tomato___Septoria_leaf_spot
+"Çiftçi arkadaşlara sordum, yapraklarda bodur büyüme var, ne yapabilirim? dediler.","Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+"Çiftçi arkadaşlara sordum, bitkimde sağlıklı domates fark ettim. dediler.","Sınıf: Tomato___healthy
+Teşhis: Sağlıklı Domates. Öneri: Bitkiniz gayet sağlıklı gelişim göstermektedir. Düzenli sulama ve budama yapmaya devam edin.",Tomato___healthy
+Sanırım bitkimde bir sorun var: bitkimin ana sorunu bakteriyel leke..,"Sınıf: Tomato___Bacterial_spot
+Teşhis: Domates Bakteriyel Leke Hastalığı. Kültürel Önlemler: Budama aletlerini dezenfekte edin. Serayı havalandırın. Kimyasal Mücadele: İlk belirtilerde bakırlı fungisitler uygulanmalıdır.",Tomato___Bacterial_spot
+"Maalesef erken yanıklık belirtileri hakkında bilgi verir misin?, ne yapmam gerekiyor?","Sınıf: Potato___Early_blight
+Teşhis: Patates Erken Yanıklığı. Kültürel Önlemler: Dengeli gübreleme ve sulama yapın. Kimyasal Mücadele: Kahverengi, halkalı lekeler görüldüğünde fungisit uygulanmalıdır.",Potato___Early_blight
+Acil yardım! bitkide siyah çürük lekeleri var.,"Sınıf: Potato___Late_blight
+Teşhis: Patates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Sık dikimden kaçının. Kimyasal Mücadele: Uygun sıcaklık ve nem koşullarında belirti beklenmeden koruyucu mildiyö ilaçları kullanılmalıdır.",Potato___Late_blight
+Bitki yapraklarının üzerinde sarı yaprak kıvırcıklığı görüyorum.,"Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+"Maalesef acil yardım! bitkide siyah çürük lekeleri var., ne yapmam gerekiyor?","Sınıf: Potato___Late_blight
+Teşhis: Patates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Sık dikimden kaçının. Kimyasal Mücadele: Uygun sıcaklık ve nem koşullarında belirti beklenmeden koruyucu mildiyö ilaçları kullanılmalıdır.",Potato___Late_blight
+"Maalesef geçen gün bakteriyel leke şüphesiyle baktım, sanırım öyle., ne yapmam gerekiyor?","Sınıf: Tomato___Bacterial_spot
+Teşhis: Domates Bakteriyel Leke Hastalığı. Kültürel Önlemler: Budama aletlerini dezenfekte edin. Serayı havalandırın. Kimyasal Mücadele: İlk belirtilerde bakırlı fungisitler uygulanmalıdır.",Tomato___Bacterial_spot
+"Acil teşhis lazım: bahçedeki bitkide turuncu püstüller oluştu, teşhis nedir?.","Sınıf: Corn_(maize)___Common_rust_
+Teşhis: Mısır Adi Pas Hastalığı. Kültürel Önlemler: Dayanıklı çeşitler seçilmeli, aşırı azottan kaçınılmalıdır. Kimyasal Mücadele: Uygun bir fungisit ile ilaçlama yapılmalıdır.",Corn_(maize)___Common_rust_
+Bakteriyel leke sorunu mahsulü mahvetti.,"Sınıf: Tomato___Bacterial_spot
+Teşhis: Domates Bakteriyel Leke Hastalığı. Kültürel Önlemler: Budama aletlerini dezenfekte edin. Serayı havalandırın. Kimyasal Mücadele: İlk belirtilerde bakırlı fungisitler uygulanmalıdır.",Tomato___Bacterial_spot
+"Kontrol ettim ve geçen gün bakteriyel leke şüphesiyle baktım, sanırım öyle. gördüm.","Sınıf: Pepper,_bell___Bacterial_spot
+Teşhis: Biber Bakteriyel Leke Hastalığı. Kültürel Önlemler: Temiz tohum/fide kullanın. Damlama sulama tercih edin. Kimyasal Mücadele: Bakırlı preparatlar ile ilaçlama yapılmalıdır.","Pepper,_bell___Bacterial_spot"
+Yaprak kenarlarında sararma nedeniyle bitkim çok sağlıksız görünüyor.,"Sınıf: Tomato___Bacterial_spot
+Teşhis: Domates Bakteriyel Leke Hastalığı. Kültürel Önlemler: Budama aletlerini dezenfekte edin. Serayı havalandırın. Kimyasal Mücadele: İlk belirtilerde bakırlı fungisitler uygulanmalıdır.",Tomato___Bacterial_spot
+Acil teşhis lazım: lekesiz gövde ile nasıl mücadele edilir?.,"Sınıf: Tomato___healthy
+Teşhis: Sağlıklı Domates. Öneri: Bitkiniz gayet sağlıklı gelişim göstermektedir. Düzenli sulama ve budama yapmaya devam edin.",Tomato___healthy
+Erken yanıklık belirtisi domateslerimi sarmaya başladı.,"Sınıf: Tomato___Early_blight
+Teşhis: Domates Erken Yanıklığı. Kültürel Önlemler: Alt yaprakları budayarak hava akımını artırın. Yağmurlama sulamadan kaçının. Kimyasal Mücadele: Tescilli fungisitlerle ilaçlama yapın.",Tomato___Early_blight
+Yapraklara baktığımda acil yardım! bitkide erken yanıklık belirtisi var. fark ediyorum.,"Sınıf: Tomato___Early_blight
+Teşhis: Domates Erken Yanıklığı. Kültürel Önlemler: Alt yaprakları budayarak hava akımını artırın. Yağmurlama sulamadan kaçının. Kimyasal Mücadele: Tescilli fungisitlerle ilaçlama yapın.",Tomato___Early_blight
+Acil teşhis lazım: hocam renk dalgalanmaları için hangi ilacı kullanmalıyım?.,"Sınıf: Tomato___Tomato_mosaic_virus
+Teşhis: Domates Mozaik Virüsü. Kültürel Önlemler: Mekanik yolla kolay bulaşır. Dokunmadan önce eller sabunla yıkanmalıdır. Bulaşık bitkiler imha edilmelidir.",Tomato___Tomato_mosaic_virus
+Lekesiz gövde sorunu mahsulü mahvetti.,"Sınıf: Tomato___healthy
+Teşhis: Sağlıklı Domates. Öneri: Bitkiniz gayet sağlıklı gelişim göstermektedir. Düzenli sulama ve budama yapmaya devam edin.",Tomato___healthy
+Kontrol ettim ve bakteriyel leke sorunu mahsulü mahvetti. gördüm.,"Sınıf: Tomato___Bacterial_spot
+Teşhis: Domates Bakteriyel Leke Hastalığı. Kültürel Önlemler: Budama aletlerini dezenfekte edin. Serayı havalandırın. Kimyasal Mücadele: İlk belirtilerde bakırlı fungisitler uygulanmalıdır.",Tomato___Bacterial_spot
+Kontrol ettim ve sağlıklı mısır sorunu mahsulü mahvetti. gördüm.,"Sınıf: Corn_(maize)___healthy
+Teşhis: Sağlıklı Mısır. Öneri: Bitkiniz tamamen sağlıklı görünmektedir. Mevcut sulama ve gübreleme programınıza devam edin.",Corn_(maize)___healthy
+Acil teşhis lazım: bitki yapraklarının üzerinde halkalı lekeler görüyorum..,"Sınıf: Potato___Early_blight
+Teşhis: Patates Erken Yanıklığı. Kültürel Önlemler: Dengeli gübreleme ve sulama yapın. Kimyasal Mücadele: Kahverengi, halkalı lekeler görüldüğünde fungisit uygulanmalıdır.",Potato___Early_blight
+"Sanırım bitkimde bir sorun var: bitkimin durumuna bakar mısın, ince ağlar var gibi..","Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
+"Acil teşhis lazım: bitkimin durumuna bakar mısın, alt yapraklarda kuruma var gibi..","Sınıf: Tomato___Early_blight
+Teşhis: Domates Erken Yanıklığı. Kültürel Önlemler: Alt yaprakları budayarak hava akımını artırın. Yağmurlama sulamadan kaçının. Kimyasal Mücadele: Tescilli fungisitlerle ilaçlama yapın.",Tomato___Early_blight
+Üstte sarı lekeler domateslerimi sarmaya başladı.,"Sınıf: Tomato___Leaf_Mold
+Teşhis: Domates Yaprak Küfü. Kültürel Önlemler: Seranın havalandırmasını artırarak nemi %85'in altına düşürün. Kimyasal Mücadele: Uygun fungisitlerle ilaçlama yapılmalıdır.",Tomato___Leaf_Mold
+Kontrol ettim ve mozaik virüsü ile nasıl mücadele edilir? gördüm.,"Sınıf: Tomato___Tomato_mosaic_virus
+Teşhis: Domates Mozaik Virüsü. Kültürel Önlemler: Mekanik yolla kolay bulaşır. Dokunmadan önce eller sabunla yıkanmalıdır. Bulaşık bitkiler imha edilmelidir.",Tomato___Tomato_mosaic_virus
+Acil teşhis lazım: bitki yapraklarının üzerinde yaprak altında kadifemsi tabaka görüyorum..,"Sınıf: Tomato___Leaf_Mold
+Teşhis: Domates Yaprak Küfü. Kültürel Önlemler: Seranın havalandırmasını artırarak nemi %85'in altına düşürün. Kimyasal Mücadele: Uygun fungisitlerle ilaçlama yapılmalıdır.",Tomato___Leaf_Mold
+"Çiftçi arkadaşlara sordum, bitki bitleri olan bitkiyi kurtarabilir miyim? dediler.","Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
+"Çiftçi arkadaşlara sordum, yeni çıkan yapraklarda sağlıklı mısır görüyorum. dediler.","Sınıf: Corn_(maize)___healthy
+Teşhis: Sağlıklı Mısır. Öneri: Bitkiniz tamamen sağlıklı görünmektedir. Mevcut sulama ve gübreleme programınıza devam edin.",Corn_(maize)___healthy
+Gri yaprak lekesi domateslerimi sarmaya başladı.,"Sınıf: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Teşhis: Mısır Gri Yaprak Lekesi (Cercospora). Kültürel Önlemler: Hasat sonrası bitki artıklarını derine gömün. Münavebe uygulayın. Kimyasal Mücadele: Tescilli fungisitler kullanılmalıdır.",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Sanırım bitkimde bir sorun var: koyu kenarlı dairesel lekeler nedeniyle bitkim çok sağlıksız görünüyor..,"Sınıf: Tomato___Septoria_leaf_spot
+Teşhis: Domates Septoria Yaprak Lekesi. Kültürel Önlemler: Sulamayı sabah erken saatlerde yapın ki yapraklar kurusun. Kimyasal Mücadele: Belirtiler saptandığında mantar ilaçları uygulayın.",Tomato___Septoria_leaf_spot
+"Yardımcı olur musunuz, acil yardım! bitkide septoria lekesi var..","Sınıf: Tomato___Septoria_leaf_spot
+Teşhis: Domates Septoria Yaprak Lekesi. Kültürel Önlemler: Sulamayı sabah erken saatlerde yapın ki yapraklar kurusun. Kimyasal Mücadele: Belirtiler saptandığında mantar ilaçları uygulayın.",Tomato___Septoria_leaf_spot
+"Yardımcı olur musunuz, yeni çıkan yapraklarda sağlıklı biber görüyorum..","Sınıf: Pepper,_bell___healthy
+Teşhis: Sağlıklı Biber. Öneri: Biber bitkinizde herhangi bir hastalık saptanmamıştır. Dengeli sulamaya devam edin.","Pepper,_bell___healthy"
+"Çiftçi arkadaşlara sordum, büyük yaprak yanıklığı olan bitkiyi kurtarabilir miyim? dediler.","Sınıf: Corn_(maize)___Northern_Leaf_Blight
+Teşhis: Mısır Kuzey Yaprak Yanıklığı. Kültürel Önlemler: Hastalıklı bitki artıklarını yok edin. Kimyasal Mücadele: Çiçeklenme öncesi sistemik mantar ilaçları tercih edilmelidir.",Corn_(maize)___Northern_Leaf_Blight
+"Çiftçi arkadaşlara sordum, hedef tahtası benzeri noktalar olan bitkiyi kurtarabilir miyim? dediler.","Sınıf: Potato___Early_blight
+Teşhis: Patates Erken Yanıklığı. Kültürel Önlemler: Dengeli gübreleme ve sulama yapın. Kimyasal Mücadele: Kahverengi, halkalı lekeler görüldüğünde fungisit uygulanmalıdır.",Potato___Early_blight
+Geç yanıklık olan bitkiyi kurtarabilir miyim?,"Sınıf: Potato___Late_blight
+Teşhis: Patates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Sık dikimden kaçının. Kimyasal Mücadele: Uygun sıcaklık ve nem koşullarında belirti beklenmeden koruyucu mildiyö ilaçları kullanılmalıdır.",Potato___Late_blight
+"Sanırım bitkimde bir sorun var: geçen gün lekesiz patates fidesi şüphesiyle baktım, sanırım öyle..","Sınıf: Potato___healthy
+Teşhis: Sağlıklı Patates. Öneri: Patates bitkiniz sağlıklı durumdadır. Boğaz doldurma ve sulama işlemlerini zamanında yapın.",Potato___healthy
+"Yardımcı olur musunuz, yapraklarda sağlıklı domates var, ne yapabilirim?.","Sınıf: Tomato___healthy
+Teşhis: Sağlıklı Domates. Öneri: Bitkiniz gayet sağlıklı gelişim göstermektedir. Düzenli sulama ve budama yapmaya devam edin.",Tomato___healthy
+Kontrol ettim ve yaprağın her yerini puro tipi uzun gri lekeler kaplamış. gördüm.,"Sınıf: Corn_(maize)___Northern_Leaf_Blight
+Teşhis: Mısır Kuzey Yaprak Yanıklığı. Kültürel Önlemler: Hastalıklı bitki artıklarını yok edin. Kimyasal Mücadele: Çiçeklenme öncesi sistemik mantar ilaçları tercih edilmelidir.",Corn_(maize)___Northern_Leaf_Blight
+"Yardımcı olur musunuz, yapraklarda temiz biber fidesi var, ne yapabilirim?.","Sınıf: Pepper,_bell___healthy
+Teşhis: Sağlıklı Biber. Öneri: Biber bitkinizde herhangi bir hastalık saptanmamıştır. Dengeli sulamaya devam edin.","Pepper,_bell___healthy"
+"Çiftçi arkadaşlara sordum, yaprağın her yerini yeşil ve canlı yapraklar kaplamış. dediler.","Sınıf: Corn_(maize)___healthy
+Teşhis: Sağlıklı Mısır. Öneri: Bitkiniz tamamen sağlıklı görünmektedir. Mevcut sulama ve gübreleme programınıza devam edin.",Corn_(maize)___healthy
+Parlak yeşil yapraklar domateslerimi sarmaya başladı.,"Sınıf: Pepper,_bell___healthy
+Teşhis: Sağlıklı Biber. Öneri: Biber bitkinizde herhangi bir hastalık saptanmamıştır. Dengeli sulamaya devam edin.","Pepper,_bell___healthy"
+"Acil teşhis lazım: açık ve koyu yeşil yamalar teşhisi koydum, doğru mu?.","Sınıf: Tomato___Tomato_mosaic_virus
+Teşhis: Domates Mozaik Virüsü. Kültürel Önlemler: Mekanik yolla kolay bulaşır. Dokunmadan önce eller sabunla yıkanmalıdır. Bulaşık bitkiler imha edilmelidir.",Tomato___Tomato_mosaic_virus
+"Çiftçi arkadaşlara sordum, turuncu püstüller olan bitkiyi kurtarabilir miyim? dediler.","Sınıf: Corn_(maize)___Common_rust_
+Teşhis: Mısır Adi Pas Hastalığı. Kültürel Önlemler: Dayanıklı çeşitler seçilmeli, aşırı azottan kaçınılmalıdır. Kimyasal Mücadele: Uygun bir fungisit ile ilaçlama yapılmalıdır.",Corn_(maize)___Common_rust_
+Yapraklara baktığımda bitki bitleri belirtileri hakkında bilgi verir misin? fark ediyorum.,"Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
+Acil teşhis lazım: tarladaki yapraklarda üstte sarı lekeler yayıldı..,"Sınıf: Tomato___Leaf_Mold
+Teşhis: Domates Yaprak Küfü. Kültürel Önlemler: Seranın havalandırmasını artırarak nemi %85'in altına düşürün. Kimyasal Mücadele: Uygun fungisitlerle ilaçlama yapılmalıdır.",Tomato___Leaf_Mold
+"Maalesef bitkimin ana sorunu büyük siyah yanıklar., ne yapmam gerekiyor?","Sınıf: Tomato___Late_blight
+Teşhis: Domates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Nemi düşürün, sık dikim yapmayın. Kimyasal Mücadele: Çiçeklenme veya çiğ/sisli havalarda koruyucu mildiyö ilaçlaması yapın.",Tomato___Late_blight
+Bitkimde koyu kenarlı dairesel lekeler fark ettim.,"Sınıf: Tomato___Septoria_leaf_spot
+Teşhis: Domates Septoria Yaprak Lekesi. Kültürel Önlemler: Sulamayı sabah erken saatlerde yapın ki yapraklar kurusun. Kimyasal Mücadele: Belirtiler saptandığında mantar ilaçları uygulayın.",Tomato___Septoria_leaf_spot
+Yapraklara baktığımda neden yapraklarda pas rengi tozlar oluşur? fark ediyorum.,"Sınıf: Corn_(maize)___Common_rust_
+Teşhis: Mısır Adi Pas Hastalığı. Kültürel Önlemler: Dayanıklı çeşitler seçilmeli, aşırı azottan kaçınılmalıdır. Kimyasal Mücadele: Uygun bir fungisit ile ilaçlama yapılmalıdır.",Corn_(maize)___Common_rust_
+Sanırım bitkimde bir sorun var: tarladaki yapraklarda dikdörtgen gri lekeler yayıldı..,"Sınıf: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Teşhis: Mısır Gri Yaprak Lekesi (Cercospora). Kültürel Önlemler: Hasat sonrası bitki artıklarını derine gömün. Münavebe uygulayın. Kimyasal Mücadele: Tescilli fungisitler kullanılmalıdır.",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Yeni çıkan yapraklarda yaprakta küçük sarı noktalar görüyorum.,"Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
+Kontrol ettim ve yeni çıkan yapraklarda dikdörtgen gri lekeler görüyorum. gördüm.,"Sınıf: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Teşhis: Mısır Gri Yaprak Lekesi (Cercospora). Kültürel Önlemler: Hasat sonrası bitki artıklarını derine gömün. Münavebe uygulayın. Kimyasal Mücadele: Tescilli fungisitler kullanılmalıdır.",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Mozaik virüsü belirtileri hakkında bilgi verir misin?,"Sınıf: Tomato___Tomato_mosaic_virus
+Teşhis: Domates Mozaik Virüsü. Kültürel Önlemler: Mekanik yolla kolay bulaşır. Dokunmadan önce eller sabunla yıkanmalıdır. Bulaşık bitkiler imha edilmelidir.",Tomato___Tomato_mosaic_virus
+"Çiftçi arkadaşlara sordum, tarladaki yapraklarda sağlıklı mısır yayıldı. dediler.","Sınıf: Corn_(maize)___healthy
+Teşhis: Sağlıklı Mısır. Öneri: Bitkiniz tamamen sağlıklı görünmektedir. Mevcut sulama ve gübreleme programınıza devam edin.",Corn_(maize)___healthy
+"Bitkimin durumuna bakar mısın, alt yapraklarda kuruma var gibi.","Sınıf: Tomato___Early_blight
+Teşhis: Domates Erken Yanıklığı. Kültürel Önlemler: Alt yaprakları budayarak hava akımını artırın. Yağmurlama sulamadan kaçının. Kimyasal Mücadele: Tescilli fungisitlerle ilaçlama yapın.",Tomato___Early_blight
+"Çiftçi arkadaşlara sordum, hocam örümcek akarı için hangi ilacı kullanmalıyım? dediler.","Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
+"Kontrol ettim ve bakteriyel leke teşhisi koydum, doğru mu? gördüm.","Sınıf: Pepper,_bell___Bacterial_spot
+Teşhis: Biber Bakteriyel Leke Hastalığı. Kültürel Önlemler: Temiz tohum/fide kullanın. Damlama sulama tercih edin. Kimyasal Mücadele: Bakırlı preparatlar ile ilaçlama yapılmalıdır.","Pepper,_bell___Bacterial_spot"
+Kontrol ettim ve sarı yaprak kıvırcıklığı sorunu mahsulü mahvetti. gördüm.,"Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+"Yaprakta kabarık turuncu noktalar teşhisi koydum, doğru mu?","Sınıf: Corn_(maize)___Common_rust_
+Teşhis: Mısır Adi Pas Hastalığı. Kültürel Önlemler: Dayanıklı çeşitler seçilmeli, aşırı azottan kaçınılmalıdır. Kimyasal Mücadele: Uygun bir fungisit ile ilaçlama yapılmalıdır.",Corn_(maize)___Common_rust_
+Kontrol ettim ve lekesiz patates fidesi nedeniyle bitkim çok sağlıksız görünüyor. gördüm.,"Sınıf: Potato___healthy
+Teşhis: Sağlıklı Patates. Öneri: Patates bitkiniz sağlıklı durumdadır. Boğaz doldurma ve sulama işlemlerini zamanında yapın.",Potato___healthy
+"Maalesef bitkimin durumuna bakar mısın, ıslak görünümlü küçük lekeler var gibi., ne yapmam gerekiyor?","Sınıf: Pepper,_bell___Bacterial_spot
+Teşhis: Biber Bakteriyel Leke Hastalığı. Kültürel Önlemler: Temiz tohum/fide kullanın. Damlama sulama tercih edin. Kimyasal Mücadele: Bakırlı preparatlar ile ilaçlama yapılmalıdır.","Pepper,_bell___Bacterial_spot"
+"Yardımcı olur musunuz, renk dalgalanmaları domateslerimi sarmaya başladı..","Sınıf: Tomato___Tomato_mosaic_virus
+Teşhis: Domates Mozaik Virüsü. Kültürel Önlemler: Mekanik yolla kolay bulaşır. Dokunmadan önce eller sabunla yıkanmalıdır. Bulaşık bitkiler imha edilmelidir.",Tomato___Tomato_mosaic_virus
+"Yardımcı olur musunuz, yeşil ve canlı yapraklar teşhisi koydum, doğru mu?.","Sınıf: Corn_(maize)___healthy
+Teşhis: Sağlıklı Mısır. Öneri: Bitkiniz tamamen sağlıklı görünmektedir. Mevcut sulama ve gübreleme programınıza devam edin.",Corn_(maize)___healthy
+Yapraklara baktığımda yaprağın her yerini gür yeşil yapraklar kaplamış. fark ediyorum.,"Sınıf: Potato___healthy
+Teşhis: Sağlıklı Patates. Öneri: Patates bitkiniz sağlıklı durumdadır. Boğaz doldurma ve sulama işlemlerini zamanında yapın.",Potato___healthy
+Acil teşhis lazım: tarladaki yapraklarda sağlıklı mısır yayıldı..,"Sınıf: Corn_(maize)___healthy
+Teşhis: Sağlıklı Mısır. Öneri: Bitkiniz tamamen sağlıklı görünmektedir. Mevcut sulama ve gübreleme programınıza devam edin.",Corn_(maize)___healthy
+"Maalesef bakteriyel leke nedeniyle bitkim çok sağlıksız görünüyor., ne yapmam gerekiyor?","Sınıf: Pepper,_bell___Bacterial_spot
+Teşhis: Biber Bakteriyel Leke Hastalığı. Kültürel Önlemler: Temiz tohum/fide kullanın. Damlama sulama tercih edin. Kimyasal Mücadele: Bakırlı preparatlar ile ilaçlama yapılmalıdır.","Pepper,_bell___Bacterial_spot"
+"Çiftçi arkadaşlara sordum, yaprağın her yerini üstte sarı lekeler kaplamış. dediler.","Sınıf: Tomato___Leaf_Mold
+Teşhis: Domates Yaprak Küfü. Kültürel Önlemler: Seranın havalandırmasını artırarak nemi %85'in altına düşürün. Kimyasal Mücadele: Uygun fungisitlerle ilaçlama yapılmalıdır.",Tomato___Leaf_Mold
+Hedef tahtası benzeri noktalar olan bitkiyi kurtarabilir miyim?,"Sınıf: Potato___Early_blight
+Teşhis: Patates Erken Yanıklığı. Kültürel Önlemler: Dengeli gübreleme ve sulama yapın. Kimyasal Mücadele: Kahverengi, halkalı lekeler görüldüğünde fungisit uygulanmalıdır.",Potato___Early_blight
+Acil teşhis lazım: yeni çıkan yapraklarda lekesiz patates fidesi görüyorum..,"Sınıf: Potato___healthy
+Teşhis: Sağlıklı Patates. Öneri: Patates bitkiniz sağlıklı durumdadır. Boğaz doldurma ve sulama işlemlerini zamanında yapın.",Potato___healthy
+Kontrol ettim ve hocam küçük siyah noktalar için hangi ilacı kullanmalıyım? gördüm.,"Sınıf: Tomato___Bacterial_spot
+Teşhis: Domates Bakteriyel Leke Hastalığı. Kültürel Önlemler: Budama aletlerini dezenfekte edin. Serayı havalandırın. Kimyasal Mücadele: İlk belirtilerde bakırlı fungisitler uygulanmalıdır.",Tomato___Bacterial_spot
+Acil teşhis lazım: yeni çıkan yapraklarda dikdörtgen gri lekeler görüyorum..,"Sınıf: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Teşhis: Mısır Gri Yaprak Lekesi (Cercospora). Kültürel Önlemler: Hasat sonrası bitki artıklarını derine gömün. Münavebe uygulayın. Kimyasal Mücadele: Tescilli fungisitler kullanılmalıdır.",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+"Yapraklarda temiz biber fidesi var, ne yapabilirim?","Sınıf: Pepper,_bell___healthy
+Teşhis: Sağlıklı Biber. Öneri: Biber bitkinizde herhangi bir hastalık saptanmamıştır. Dengeli sulamaya devam edin.","Pepper,_bell___healthy"
+Acil yardım! bitkide dikdörtgen gri lekeler var.,"Sınıf: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Teşhis: Mısır Gri Yaprak Lekesi (Cercospora). Kültürel Önlemler: Hasat sonrası bitki artıklarını derine gömün. Münavebe uygulayın. Kimyasal Mücadele: Tescilli fungisitler kullanılmalıdır.",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Yapraklara baktığımda tarladaki yapraklarda üstte sarı lekeler yayıldı. fark ediyorum.,"Sınıf: Tomato___Leaf_Mold
+Teşhis: Domates Yaprak Küfü. Kültürel Önlemler: Seranın havalandırmasını artırarak nemi %85'in altına düşürün. Kimyasal Mücadele: Uygun fungisitlerle ilaçlama yapılmalıdır.",Tomato___Leaf_Mold
+"Maalesef renk dalgalanmaları olan bitkiyi kurtarabilir miyim?, ne yapmam gerekiyor?","Sınıf: Tomato___Tomato_mosaic_virus
+Teşhis: Domates Mozaik Virüsü. Kültürel Önlemler: Mekanik yolla kolay bulaşır. Dokunmadan önce eller sabunla yıkanmalıdır. Bulaşık bitkiler imha edilmelidir.",Tomato___Tomato_mosaic_virus
+Yapraklara baktığımda yaprağın her yerini geç yanıklık kaplamış. fark ediyorum.,"Sınıf: Potato___Late_blight
+Teşhis: Patates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Sık dikimden kaçının. Kimyasal Mücadele: Uygun sıcaklık ve nem koşullarında belirti beklenmeden koruyucu mildiyö ilaçları kullanılmalıdır.",Potato___Late_blight
+Acil teşhis lazım: hocam büyük yaprak yanıklığı için hangi ilacı kullanmalıyım?.,"Sınıf: Corn_(maize)___Northern_Leaf_Blight
+Teşhis: Mısır Kuzey Yaprak Yanıklığı. Kültürel Önlemler: Hastalıklı bitki artıklarını yok edin. Kimyasal Mücadele: Çiçeklenme öncesi sistemik mantar ilaçları tercih edilmelidir.",Corn_(maize)___Northern_Leaf_Blight
+Acil teşhis lazım: parlak yeşil yapraklar nedeniyle bitkim çok sağlıksız görünüyor..,"Sınıf: Pepper,_bell___healthy
+Teşhis: Sağlıklı Biber. Öneri: Biber bitkinizde herhangi bir hastalık saptanmamıştır. Dengeli sulamaya devam edin.","Pepper,_bell___healthy"
+"Çiftçi arkadaşlara sordum, erken yanıklık belirtileri hakkında bilgi verir misin? dediler.","Sınıf: Potato___Early_blight
+Teşhis: Patates Erken Yanıklığı. Kültürel Önlemler: Dengeli gübreleme ve sulama yapın. Kimyasal Mücadele: Kahverengi, halkalı lekeler görüldüğünde fungisit uygulanmalıdır.",Potato___Early_blight
+"Acil teşhis lazım: bahçedeki bitkide sağlıklı domates oluştu, teşhis nedir?.","Sınıf: Tomato___healthy
+Teşhis: Sağlıklı Domates. Öneri: Bitkiniz gayet sağlıklı gelişim göstermektedir. Düzenli sulama ve budama yapmaya devam edin.",Tomato___healthy
+"Yardımcı olur musunuz, geçen gün daireler şeklinde genişleyen lekeler şüphesiyle baktım, sanırım öyle..","Sınıf: Tomato___Target_Spot
+Teşhis: Domates Hedef Lekesi. Kültürel Önlemler: Bitki mesafelerini geniş tutun, alt yaprakları budayın. Kimyasal Mücadele: Erken yanıklık ilaçları bu hastalıkta da etkilidir.",Tomato___Target_Spot
+Kontrol ettim ve hocam parlak yeşil yapraklar için hangi ilacı kullanmalıyım? gördüm.,"Sınıf: Pepper,_bell___healthy
+Teşhis: Sağlıklı Biber. Öneri: Biber bitkinizde herhangi bir hastalık saptanmamıştır. Dengeli sulamaya devam edin.","Pepper,_bell___healthy"
+Sanırım bitkimde bir sorun var: neden yapraklarda renk dalgalanmaları oluşur?.,"Sınıf: Tomato___Tomato_mosaic_virus
+Teşhis: Domates Mozaik Virüsü. Kültürel Önlemler: Mekanik yolla kolay bulaşır. Dokunmadan önce eller sabunla yıkanmalıdır. Bulaşık bitkiler imha edilmelidir.",Tomato___Tomato_mosaic_virus
+Koyu kenarlı dairesel lekeler domateslerimi sarmaya başladı.,"Sınıf: Tomato___Septoria_leaf_spot
+Teşhis: Domates Septoria Yaprak Lekesi. Kültürel Önlemler: Sulamayı sabah erken saatlerde yapın ki yapraklar kurusun. Kimyasal Mücadele: Belirtiler saptandığında mantar ilaçları uygulayın.",Tomato___Septoria_leaf_spot
+"Yapraklarda bodur büyüme var, ne yapabilirim?","Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+"Maalesef gür yeşil yapraklar sorunu mahsulü mahvetti., ne yapmam gerekiyor?","Sınıf: Potato___healthy
+Teşhis: Sağlıklı Patates. Öneri: Patates bitkiniz sağlıklı durumdadır. Boğaz doldurma ve sulama işlemlerini zamanında yapın.",Potato___healthy
+"Kontrol ettim ve geçen gün temiz biber fidesi şüphesiyle baktım, sanırım öyle. gördüm.","Sınıf: Pepper,_bell___healthy
+Teşhis: Sağlıklı Biber. Öneri: Biber bitkinizde herhangi bir hastalık saptanmamıştır. Dengeli sulamaya devam edin.","Pepper,_bell___healthy"
+Sanırım bitkimde bir sorun var: dikdörtgen gri lekeler sorunu mahsulü mahvetti..,"Sınıf: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Teşhis: Mısır Gri Yaprak Lekesi (Cercospora). Kültürel Önlemler: Hasat sonrası bitki artıklarını derine gömün. Münavebe uygulayın. Kimyasal Mücadele: Tescilli fungisitler kullanılmalıdır.",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Yaprağın her yerini geç yanıklık kaplamış.,"Sınıf: Potato___Late_blight
+Teşhis: Patates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Sık dikimden kaçının. Kimyasal Mücadele: Uygun sıcaklık ve nem koşullarında belirti beklenmeden koruyucu mildiyö ilaçları kullanılmalıdır.",Potato___Late_blight
+"Çiftçi arkadaşlara sordum, hocam küçük siyah noktalar için hangi ilacı kullanmalıyım? dediler.","Sınıf: Tomato___Bacterial_spot
+Teşhis: Domates Bakteriyel Leke Hastalığı. Kültürel Önlemler: Budama aletlerini dezenfekte edin. Serayı havalandırın. Kimyasal Mücadele: İlk belirtilerde bakırlı fungisitler uygulanmalıdır.",Tomato___Bacterial_spot
+"Çiftçi arkadaşlara sordum, neden yapraklarda büyük yaprak yanıklığı oluşur? dediler.","Sınıf: Corn_(maize)___Northern_Leaf_Blight
+Teşhis: Mısır Kuzey Yaprak Yanıklığı. Kültürel Önlemler: Hastalıklı bitki artıklarını yok edin. Kimyasal Mücadele: Çiçeklenme öncesi sistemik mantar ilaçları tercih edilmelidir.",Corn_(maize)___Northern_Leaf_Blight
+Kontrol ettim ve mekik şeklinde lekeler domateslerimi sarmaya başladı. gördüm.,"Sınıf: Corn_(maize)___Northern_Leaf_Blight
+Teşhis: Mısır Kuzey Yaprak Yanıklığı. Kültürel Önlemler: Hastalıklı bitki artıklarını yok edin. Kimyasal Mücadele: Çiçeklenme öncesi sistemik mantar ilaçları tercih edilmelidir.",Corn_(maize)___Northern_Leaf_Blight
+"Yardımcı olur musunuz, büyük siyah yanıklar teşhisi koydum, doğru mu?.","Sınıf: Tomato___Late_blight
+Teşhis: Domates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Nemi düşürün, sık dikim yapmayın. Kimyasal Mücadele: Çiçeklenme veya çiğ/sisli havalarda koruyucu mildiyö ilaçlaması yapın.",Tomato___Late_blight
+Bitki yapraklarının üzerinde pürüzlü kahverengi noktalar görüyorum.,"Sınıf: Pepper,_bell___Bacterial_spot
+Teşhis: Biber Bakteriyel Leke Hastalığı. Kültürel Önlemler: Temiz tohum/fide kullanın. Damlama sulama tercih edin. Kimyasal Mücadele: Bakırlı preparatlar ile ilaçlama yapılmalıdır.","Pepper,_bell___Bacterial_spot"
+Bitkimin ana sorunu turuncu püstüller.,"Sınıf: Corn_(maize)___Common_rust_
+Teşhis: Mısır Adi Pas Hastalığı. Kültürel Önlemler: Dayanıklı çeşitler seçilmeli, aşırı azottan kaçınılmalıdır. Kimyasal Mücadele: Uygun bir fungisit ile ilaçlama yapılmalıdır.",Corn_(maize)___Common_rust_
+Sanırım bitkimde bir sorun var: neden yapraklarda sağlıklı biber oluşur?.,"Sınıf: Pepper,_bell___healthy
+Teşhis: Sağlıklı Biber. Öneri: Biber bitkinizde herhangi bir hastalık saptanmamıştır. Dengeli sulamaya devam edin.","Pepper,_bell___healthy"
+Yapraklara baktığımda bitkimin ana sorunu hedef tahtası benzeri noktalar. fark ediyorum.,"Sınıf: Potato___Early_blight
+Teşhis: Patates Erken Yanıklığı. Kültürel Önlemler: Dengeli gübreleme ve sulama yapın. Kimyasal Mücadele: Kahverengi, halkalı lekeler görüldüğünde fungisit uygulanmalıdır.",Potato___Early_blight
+"Yapraklara baktığımda koyu kenarlı dairesel lekeler teşhisi koydum, doğru mu? fark ediyorum.","Sınıf: Tomato___Septoria_leaf_spot
+Teşhis: Domates Septoria Yaprak Lekesi. Kültürel Önlemler: Sulamayı sabah erken saatlerde yapın ki yapraklar kurusun. Kimyasal Mücadele: Belirtiler saptandığında mantar ilaçları uygulayın.",Tomato___Septoria_leaf_spot
+Yapraklara baktığımda neden yapraklarda koyu kenarlı dairesel lekeler oluşur? fark ediyorum.,"Sınıf: Tomato___Septoria_leaf_spot
+Teşhis: Domates Septoria Yaprak Lekesi. Kültürel Önlemler: Sulamayı sabah erken saatlerde yapın ki yapraklar kurusun. Kimyasal Mücadele: Belirtiler saptandığında mantar ilaçları uygulayın.",Tomato___Septoria_leaf_spot
+"Bahçedeki bitkide yaprak altında kadifemsi tabaka oluştu, teşhis nedir?","Sınıf: Tomato___Leaf_Mold
+Teşhis: Domates Yaprak Küfü. Kültürel Önlemler: Seranın havalandırmasını artırarak nemi %85'in altına düşürün. Kimyasal Mücadele: Uygun fungisitlerle ilaçlama yapılmalıdır.",Tomato___Leaf_Mold
+"Çiftçi arkadaşlara sordum, lekesiz patates fidesi belirtileri hakkında bilgi verir misin? dediler.","Sınıf: Potato___healthy
+Teşhis: Sağlıklı Patates. Öneri: Patates bitkiniz sağlıklı durumdadır. Boğaz doldurma ve sulama işlemlerini zamanında yapın.",Potato___healthy
+Sanırım bitkimde bir sorun var: ıslak görünümlü küçük lekeler olan bitkiyi kurtarabilir miyim?.,"Sınıf: Pepper,_bell___Bacterial_spot
+Teşhis: Biber Bakteriyel Leke Hastalığı. Kültürel Önlemler: Temiz tohum/fide kullanın. Damlama sulama tercih edin. Kimyasal Mücadele: Bakırlı preparatlar ile ilaçlama yapılmalıdır.","Pepper,_bell___Bacterial_spot"
+"Sanırım bitkimde bir sorun var: yeşil ve canlı yapraklar teşhisi koydum, doğru mu?.","Sınıf: Corn_(maize)___healthy
+Teşhis: Sağlıklı Mısır. Öneri: Bitkiniz tamamen sağlıklı görünmektedir. Mevcut sulama ve gübreleme programınıza devam edin.",Corn_(maize)___healthy
+Tarladaki yapraklarda büyük yaprak yanıklığı yayıldı.,"Sınıf: Corn_(maize)___Northern_Leaf_Blight
+Teşhis: Mısır Kuzey Yaprak Yanıklığı. Kültürel Önlemler: Hastalıklı bitki artıklarını yok edin. Kimyasal Mücadele: Çiçeklenme öncesi sistemik mantar ilaçları tercih edilmelidir.",Corn_(maize)___Northern_Leaf_Blight
+Acil teşhis lazım: noktasal bozulmalar domateslerimi sarmaya başladı..,"Sınıf: Tomato___Target_Spot
+Teşhis: Domates Hedef Lekesi. Kültürel Önlemler: Bitki mesafelerini geniş tutun, alt yaprakları budayın. Kimyasal Mücadele: Erken yanıklık ilaçları bu hastalıkta da etkilidir.",Tomato___Target_Spot
+"Maalesef bodur büyüme teşhisi koydum, doğru mu?, ne yapmam gerekiyor?","Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Bitkimin ana sorunu daireler şeklinde genişleyen lekeler.,"Sınıf: Tomato___Target_Spot
+Teşhis: Domates Hedef Lekesi. Kültürel Önlemler: Bitki mesafelerini geniş tutun, alt yaprakları budayın. Kimyasal Mücadele: Erken yanıklık ilaçları bu hastalıkta da etkilidir.",Tomato___Target_Spot
+Acil teşhis lazım: hocam turuncu püstüller için hangi ilacı kullanmalıyım?.,"Sınıf: Corn_(maize)___Common_rust_
+Teşhis: Mısır Adi Pas Hastalığı. Kültürel Önlemler: Dayanıklı çeşitler seçilmeli, aşırı azottan kaçınılmalıdır. Kimyasal Mücadele: Uygun bir fungisit ile ilaçlama yapılmalıdır.",Corn_(maize)___Common_rust_
+"Yardımcı olur musunuz, tarladaki yapraklarda noktasal bozulmalar yayıldı..","Sınıf: Tomato___Target_Spot
+Teşhis: Domates Hedef Lekesi. Kültürel Önlemler: Bitki mesafelerini geniş tutun, alt yaprakları budayın. Kimyasal Mücadele: Erken yanıklık ilaçları bu hastalıkta da etkilidir.",Tomato___Target_Spot
+Acil teşhis lazım: üstte sarı lekeler sorunu mahsulü mahvetti..,"Sınıf: Tomato___Leaf_Mold
+Teşhis: Domates Yaprak Küfü. Kültürel Önlemler: Seranın havalandırmasını artırarak nemi %85'in altına düşürün. Kimyasal Mücadele: Uygun fungisitlerle ilaçlama yapılmalıdır.",Tomato___Leaf_Mold
+"Sanırım bitkimde bir sorun var: büyük siyah yanıklar teşhisi koydum, doğru mu?.","Sınıf: Tomato___Late_blight
+Teşhis: Domates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Nemi düşürün, sık dikim yapmayın. Kimyasal Mücadele: Çiçeklenme veya çiğ/sisli havalarda koruyucu mildiyö ilaçlaması yapın.",Tomato___Late_blight
+Sanırım bitkimde bir sorun var: yaprağın her yerini büyük siyah yanıklar kaplamış..,"Sınıf: Tomato___Late_blight
+Teşhis: Domates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Nemi düşürün, sık dikim yapmayın. Kimyasal Mücadele: Çiçeklenme veya çiğ/sisli havalarda koruyucu mildiyö ilaçlaması yapın.",Tomato___Late_blight
+Yapraklara baktığımda acil yardım! bitkide siyah çürük lekeleri var. fark ediyorum.,"Sınıf: Potato___Late_blight
+Teşhis: Patates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Sık dikimden kaçının. Kimyasal Mücadele: Uygun sıcaklık ve nem koşullarında belirti beklenmeden koruyucu mildiyö ilaçları kullanılmalıdır.",Potato___Late_blight
+"Çiftçi arkadaşlara sordum, yapraklarda yaprakta hızlı yayılan kararmalar var, ne yapabilirim? dediler.","Sınıf: Tomato___Late_blight
+Teşhis: Domates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Nemi düşürün, sık dikim yapmayın. Kimyasal Mücadele: Çiçeklenme veya çiğ/sisli havalarda koruyucu mildiyö ilaçlaması yapın.",Tomato___Late_blight
+Acil teşhis lazım: yaprakta hızlı yayılan kararmalar olan bitkiyi kurtarabilir miyim?.,"Sınıf: Tomato___Late_blight
+Teşhis: Domates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Nemi düşürün, sık dikim yapmayın. Kimyasal Mücadele: Çiçeklenme veya çiğ/sisli havalarda koruyucu mildiyö ilaçlaması yapın.",Tomato___Late_blight
+Islak görünümlü küçük lekeler domateslerimi sarmaya başladı.,"Sınıf: Pepper,_bell___Bacterial_spot
+Teşhis: Biber Bakteriyel Leke Hastalığı. Kültürel Önlemler: Temiz tohum/fide kullanın. Damlama sulama tercih edin. Kimyasal Mücadele: Bakırlı preparatlar ile ilaçlama yapılmalıdır.","Pepper,_bell___Bacterial_spot"
+"Bitkimin durumuna bakar mısın, noktasal bozulmalar var gibi.","Sınıf: Tomato___Target_Spot
+Teşhis: Domates Hedef Lekesi. Kültürel Önlemler: Bitki mesafelerini geniş tutun, alt yaprakları budayın. Kimyasal Mücadele: Erken yanıklık ilaçları bu hastalıkta da etkilidir.",Tomato___Target_Spot
+Sanırım bitkimde bir sorun var: acil yardım! bitkide noktasal bozulmalar var..,"Sınıf: Tomato___Target_Spot
+Teşhis: Domates Hedef Lekesi. Kültürel Önlemler: Bitki mesafelerini geniş tutun, alt yaprakları budayın. Kimyasal Mücadele: Erken yanıklık ilaçları bu hastalıkta da etkilidir.",Tomato___Target_Spot
+Kontrol ettim ve yukarı doğru büzülen yapraklar belirtileri hakkında bilgi verir misin? gördüm.,"Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+"Yardımcı olur musunuz, yapraklarda gri yaprak lekesi var, ne yapabilirim?.","Sınıf: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+Teşhis: Mısır Gri Yaprak Lekesi (Cercospora). Kültürel Önlemler: Hasat sonrası bitki artıklarını derine gömün. Münavebe uygulayın. Kimyasal Mücadele: Tescilli fungisitler kullanılmalıdır.",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+"Kontrol ettim ve bahçedeki bitkide halkalı kahverengi lekeler oluştu, teşhis nedir? gördüm.","Sınıf: Tomato___Early_blight
+Teşhis: Domates Erken Yanıklığı. Kültürel Önlemler: Alt yaprakları budayarak hava akımını artırın. Yağmurlama sulamadan kaçının. Kimyasal Mücadele: Tescilli fungisitlerle ilaçlama yapın.",Tomato___Early_blight
+Acil yardım! bitkide yaprakta hızlı yayılan kararmalar var.,"Sınıf: Tomato___Late_blight
+Teşhis: Domates Geç Yanıklığı / Mildiyö. Kültürel Önlemler: Nemi düşürün, sık dikim yapmayın. Kimyasal Mücadele: Çiçeklenme veya çiğ/sisli havalarda koruyucu mildiyö ilaçlaması yapın.",Tomato___Late_blight
+Lekesiz patates fidesi nedeniyle bitkim çok sağlıksız görünüyor.,"Sınıf: Potato___healthy
+Teşhis: Sağlıklı Patates. Öneri: Patates bitkiniz sağlıklı durumdadır. Boğaz doldurma ve sulama işlemlerini zamanında yapın.",Potato___healthy
+"Kontrol ettim ve geçen gün ince ağlar şüphesiyle baktım, sanırım öyle. gördüm.","Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
+"Maalesef yapraklarda sağlıklı domates var, ne yapabilirim?, ne yapmam gerekiyor?","Sınıf: Tomato___healthy
+Teşhis: Sağlıklı Domates. Öneri: Bitkiniz gayet sağlıklı gelişim göstermektedir. Düzenli sulama ve budama yapmaya devam edin.",Tomato___healthy
+Acil teşhis lazım: hedef tahtası benzeri noktalar domateslerimi sarmaya başladı..,"Sınıf: Potato___Early_blight
+Teşhis: Patates Erken Yanıklığı. Kültürel Önlemler: Dengeli gübreleme ve sulama yapın. Kimyasal Mücadele: Kahverengi, halkalı lekeler görüldüğünde fungisit uygulanmalıdır.",Potato___Early_blight
+"Çiftçi arkadaşlara sordum, bitki yapraklarının üzerinde örümcek akarı görüyorum. dediler.","Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
+"Yardımcı olur musunuz, bakteriyel leke teşhisi koydum, doğru mu?.","Sınıf: Pepper,_bell___Bacterial_spot
+Teşhis: Biber Bakteriyel Leke Hastalığı. Kültürel Önlemler: Temiz tohum/fide kullanın. Damlama sulama tercih edin. Kimyasal Mücadele: Bakırlı preparatlar ile ilaçlama yapılmalıdır.","Pepper,_bell___Bacterial_spot"
+"Acil teşhis lazım: daireler şeklinde genişleyen lekeler teşhisi koydum, doğru mu?.","Sınıf: Tomato___Target_Spot
+Teşhis: Domates Hedef Lekesi. Kültürel Önlemler: Bitki mesafelerini geniş tutun, alt yaprakları budayın. Kimyasal Mücadele: Erken yanıklık ilaçları bu hastalıkta da etkilidir.",Tomato___Target_Spot
+"Sanırım bitkimde bir sorun var: bahçedeki bitkide sarı yaprak kıvırcıklığı oluştu, teşhis nedir?.","Sınıf: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Teşhis: Domates Sarı Yaprak Kıvırcıklık Virüsü. Kültürel Önlemler: Doğrudan kimyasal tedavisi yoktur, vektör olan Beyazsinek ile mücadele edilmelidir. Sarı yapışkan tuzaklar kullanın.",Tomato___Tomato_Yellow_Leaf_Curl_Virus
+Acil teşhis lazım: neden yapraklarda büyük yaprak yanıklığı oluşur?.,"Sınıf: Corn_(maize)___Northern_Leaf_Blight
+Teşhis: Mısır Kuzey Yaprak Yanıklığı. Kültürel Önlemler: Hastalıklı bitki artıklarını yok edin. Kimyasal Mücadele: Çiçeklenme öncesi sistemik mantar ilaçları tercih edilmelidir.",Corn_(maize)___Northern_Leaf_Blight
+Kontrol ettim ve bitkimin ana sorunu yaprakta küçük sarı noktalar. gördüm.,"Sınıf: Tomato___Spider_mites Two-spotted_spider_mite
+Teşhis: İki Noktalı Kırmızı Örümcek Zararlısı. Kültürel Önlemler: Yabancı ot temizliği yapın. Kimyasal Mücadele: Yaprak başına canlı sayımına göre uygun bir akarisit uygulanmalıdır.",Tomato___Spider_mites Two-spotted_spider_mite
