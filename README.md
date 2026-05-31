@@ -148,7 +148,6 @@ Sonuçlar 3 seed üzerinden **ort ± std** formatında raporlanmıştır.
 | Format | ChatML (SmolLM2/TinyLlama/Qwen), Gemma4 Chat |
 | Lisans | Özel / Eğitim amaçlı |
 
-**Sınıf dağılımı:** Dengeli (min: 69, max: 84 örnek/sınıf)
 
 ---
 
