@@ -1,4 +1,4 @@
-# 🌱 Akıllı Tarım — Bitki Hastalığı Teşhis Asistanı
+#  Akıllı Tarım — Bitki Hastalığı Teşhis Asistanı
 
 Çiftçinin doğal dilde tarif ettiği belirtilerden ve/veya bitki fotoğrafından yola çıkarak hastalık tahmini ve ilaçlama önerisi üreten hibrit AI uygulaması.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 İçindekiler
+##  İçindekiler
 
 - [Proje Hakkında](#proje-hakkında)
 - [Benchmark Sonuçları](#benchmark-sonuçları)
@@ -20,7 +20,7 @@
 
 ---
 
-## 🎯 Proje Hakkında
+##  Proje Hakkında
 
 Bu proje, PlantVillage veri setinden türetilmiş Türkçe metin açıklamaları kullanarak **19 bitki hastalığı sınıfı** için teşhis ve tedavi reçetesi üretmektedir.
 
@@ -31,7 +31,7 @@ Bu proje, PlantVillage veri setinden türetilmiş Türkçe metin açıklamaları
 
 ---
 
-## 📊 Benchmark Sonuçları
+##  Benchmark Sonuçları
 
 ### Zero-shot Baseline (ort ± std, 3 seed)
 
@@ -51,11 +51,11 @@ Bu proje, PlantVillage veri setinden türetilmiş Türkçe metin açıklamaları
 | Qwen2.5-1.5B | 1.5B | **0.9637 ± 0.0142** | **0.9620 ± 0.0151** | **0.4078 ± 0.0059** | 14.6 ± 0.1 | 3.85 |
 | Gemma4-E2B | ~2B | 0.9547 ± 0.0104 | 0.9535 ± 0.0100 | 0.3688 ± 0.0249 | 46.6 ± 0.1 | 15.93 |
 
-> 🏆 **En iyi model:** Qwen2.5-1.5B — Accuracy %96.4, ROUGE-1 0.408
+>  **En iyi model:** Qwen2.5-1.5B — Accuracy %96.4, ROUGE-1 0.408
 
 ---
 
-## ⚙️ Kurulum
+##  Kurulum
 
 ### Gereksinimler
 
@@ -105,106 +105,9 @@ dependencies:
 
 ---
 
-## 🚀 Çalıştırma
+##  Çalıştırma
 
-### 1. Veri Hazırlığı
-
-```bash
-# Google Colab'da çalıştırın
-python faz0_veri_hazirlik.py
-```
-
-Bu script:
-- Mevcut HF dataset'i yükler
-- %80/%10/%10 stratified bölme yapar (seed: 42, 123, 7)
-- ChatML ve Gemma4 formatlarına dönüştürür
-- `/content/datasets/seed_42/`, `/content/datasets/seed_123/`, `/content/datasets/seed_7/` klasörlerine kaydeder
-
-### 2. Zero-shot Baseline
-
-```bash
-python faz0_zeroshot_baseline.py
-```
-
-Çıktı: `/content/zeroshot_sonuclar/`
-- `zeroshot_ham.csv` — 4 model × 3 seed ham veriler
-- `zeroshot_ozet.csv` — ort ± std tablosu
-- `zeroshot_grafik.png` — karşılaştırma grafiği
-
-### 3. Fine-tuning
-
-Her model için ayrı script çalıştırın:
-
-```bash
-# Model A — SmolLM2-360M
-python faz1_smollm2_egitim.py
-
-# Model B — TinyLlama-1.1B
-python faz2_tinyllama_egitim.py
-
-# Model C — Qwen2.5-1.5B
-python faz3_qwen_egitim.py
-
-# Model D — Gemma4-E2B
-python faz4_gemma4_egitim.py
-```
-
-Her script otomatik olarak:
-- 3 seed (42, 123, 7) üzerinde eğitim yapar
-- Her seed için loss grafiği kaydeder
-- Test metrikleri hesaplar (Acc, F1, ROUGE-1, GPU bellek)
-- Ort ± std tablosu oluşturur
-- ZIP çıktısı alır
-
-### 4. Flutter Uygulaması
-
-```bash
-cd flutter_app
-
-# Geliştirme modunda çalıştır
-flutter run -d chrome
-
-# Web build al
-flutter build web --release
-
-# build/web klasörünü hosting'e yükle
-```
-
-**API URL ayarı** (`lib/main.dart`):
-```dart
-static const bool MOCK_MOD = false;
-static const String API_URL =
-    'https://haticenuryavas-akilli-tarim-api.hf.space/predict';
-```
-
----
-
-## 📁 Proje Yapısı
-
-```
-akilli_tarim_app/
-│
-├── colab_scripts/
-│   ├── faz0_veri_hazirlik.py       # Veri bölme ve format dönüşümü
-│   ├── faz0_zeroshot_baseline.py   # Zero-shot ölçümü
-│   ├── faz1_smollm2_egitim.py      # SmolLM2 fine-tuning
-│   ├── faz2_tinyllama_egitim.py    # TinyLlama fine-tuning
-│   ├── faz3_qwen_egitim.py         # Qwen2.5 fine-tuning
-│   └── faz4_gemma4_egitim.py       # Gemma4-E2B fine-tuning
-│
-├── backend/
-│   ├── app.py                      # FastAPI backend
-│   ├── requirements.txt            # Python bağımlılıkları
-│   └── Dockerfile                  # HuggingFace Spaces için
-│
-├── flutter_app/
-│   ├── lib/
-│   │   └── main.dart               # Flutter uygulaması
-│   └── pubspec.yaml
-│
-├── requirements.txt                # Python bağımlılıkları
-└── README.md
-```
+modeller.ipynb dosyasındaki scriptleri sırası ile çalıştırınız. sonrasında tüm model ve sonuçları elde edebilrisiniz. Yalnızca model eğitim aşamaları mevcuttur. flutter ile arayüz ve model arasındaki bağlantıların detayları verilmemiştir. 
 
 ---
 
@@ -236,8 +139,9 @@ Sonuçlar 3 seed üzerinden **ort ± std** formatında raporlanmıştır.
 
 | Alan | Bilgi |
 |------|-------|
-| Kaynak | PlantVillage (Kaggle) |
-| Boyut | 1.461 benzersiz örnek |
+| Kaynak | PlantVillage (Kaggle) | Görüntü Labelleri
+| Kaynak | Sentetik olarak üretilen metin tabanlı veriseti | akilli_tarim_receteli_dataset.csv
+| Boyut | 1.461 örnek | 2.850 metin 
 | Dil | Türkçe |
 | Sınıf sayısı | 19 |
 | Bölme | %80 train / %10 val / %10 test |
