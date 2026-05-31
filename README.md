@@ -111,7 +111,7 @@ modeller.ipynb dosyasındaki scriptleri sırası ile çalıştırınız. sonras�
 
 ---
 
-## 🌱 Seed Değerleri
+## Seed Değerleri
 
 Tekrarlanabilirlik için tüm deneylerde aşağıdaki seed değerleri kullanılmıştır:
 
@@ -135,7 +135,7 @@ Sonuçlar 3 seed üzerinden **ort ± std** formatında raporlanmıştır.
 
 ---
 
-## 📦 Veri Seti
+## Veri Seti
 
 | Alan | Bilgi |
 |------|-------|
@@ -151,7 +151,7 @@ Sonuçlar 3 seed üzerinden **ort ± std** formatında raporlanmıştır.
 
 ---
 
-## 🔌 API
+## API
 
 **Base URL:** `https://haticenuryavas-akilli-tarim-api.hf.space`
 
@@ -198,7 +198,7 @@ curl https://haticenuryavas-akilli-tarim-api.hf.space/health
 
 ---
 
-## 🤗 HuggingFace
+## HuggingFace
 
 | Model | Link |
 |-------|------|
@@ -207,6 +207,6 @@ curl https://haticenuryavas-akilli-tarim-api.hf.space/health
 
 ---
 
-## 📄 Lisans
+## Lisans
 
 Bu proje eğitim amaçlı geliştirilmiştir.
