@@ -1,6 +1,6 @@
 # akilli_tarim_app
 
-A new Flutter project.
+Büyük Dil Modelleri Bitirme Ödevi kapsamında yapılmış olan bir projedir. Çiftçinin resim ve metin olarak girdiği sorgulardan yola çıkarak modellenen bitki hastalığını teşhit eden bir uygulamadır.
 
 ## Getting Started
 
