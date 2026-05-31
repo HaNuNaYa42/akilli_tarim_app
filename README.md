@@ -1,43 +1,309 @@
+# 🌱 Akıllı Tarım — Bitki Hastalığı Teşhis Asistanı
+
+Çiftçinin doğal dilde tarif ettiği belirtilerden ve/veya bitki fotoğrafından yola çıkarak hastalık tahmini ve ilaçlama önerisi üreten hibrit AI uygulaması.
+
+[![HuggingFace Model](https://img.shields.io/badge/🤗%20HuggingFace-Model-yellow)](https://huggingface.co/haticenuryavas/qwen2.5-1.5b-tarim-lora-seed42)
+[![HuggingFace API](https://img.shields.io/badge/🤗%20HuggingFace-API%20Space-blue)](https://huggingface.co/spaces/haticenuryavas/akilli-tarim-api)
+
 ---
-title: Akilli Tarim API
-emoji: 🌱
-colorFrom: green
-colorTo: teal
-sdk: docker
-pinned: false
+
+## 📋 İçindekiler
+
+- [Proje Hakkında](#proje-hakkında)
+- [Benchmark Sonuçları](#benchmark-sonuçları)
+- [Kurulum](#kurulum)
+- [Çalıştırma](#çalıştırma)
+- [Proje Yapısı](#proje-yapısı)
+- [Seed Değerleri](#seed-değerleri)
+- [Veri Seti](#veri-seti)
+- [API](#api)
+
 ---
 
-# Akıllı Tarım — Bitki Hastalığı Teşhis API
+## 🎯 Proje Hakkında
 
-Çiftçinin doğal dilde tarif ettiği belirtilerden ve/veya bitki fotoğrafından
-hastalık tahmini ve ilaçlama önerisi üreten hibrit AI API.
+Bu proje, PlantVillage veri setinden türetilmiş Türkçe metin açıklamaları kullanarak **19 bitki hastalığı sınıfı** için teşhis ve tedavi reçetesi üretmektedir.
 
-## Endpoint
+**Desteklenen bitkiler:** Mısır, Domates, Patates, Biber  
+**Toplam sınıf:** 19 (hastalıklı + sağlıklı)  
+**Dil:** Türkçe  
+**Fine-tuning yöntemi:** LoRA (r=16, alpha=32)
 
-**POST** `/predict`
+---
+
+## 📊 Benchmark Sonuçları
+
+### Zero-shot Baseline (ort ± std, 3 seed)
+
+| Model | Accuracy | Macro F1 | ROUGE-1 | GPU (GB) |
+|-------|----------|----------|---------|----------|
+| SmolLM2-360M | 0.0544 ± 0.0000 | 0.0054 ± 0.0000 | 0.1608 ± 0.0016 | 0.26 |
+| TinyLlama-1.1B | 0.0544 ± 0.0000 | 0.0054 ± 0.0000 | 0.1450 ± 0.0012 | 0.79 |
+| Qwen2.5-1.5B | 0.0544 ± 0.0000 | 0.0054 ± 0.0000 | 0.1654 ± 0.0014 | 1.16 |
+| Gemma4-E2B | 0.0544 ± 0.0000 | 0.0054 ± 0.0000 | 0.1513 ± 0.0009 | 6.40 |
+
+### LoRA Fine-tuning (ort ± std, 3 seed)
+
+| Model | Parametre | Accuracy | Macro F1 | ROUGE-1 | Eğitim (dk) | GPU (GB) |
+|-------|-----------|----------|----------|---------|-------------|----------|
+| SmolLM2-360M | 360M | 0.5827 ± 0.0157 | 0.5509 ± 0.0223 | 0.2994 ± 0.0058 | 16.0 ± 0.1 | 1.31 |
+| TinyLlama-1.1B | 1.1B | 0.9569 ± 0.0275 | 0.9549 ± 0.0291 | 0.3217 ± 0.0022 | 11.4 ± 0.1 | 1.91 |
+| Qwen2.5-1.5B | 1.5B | **0.9637 ± 0.0142** | **0.9620 ± 0.0151** | **0.4078 ± 0.0059** | 14.6 ± 0.1 | 3.85 |
+| Gemma4-E2B | ~2B | 0.9547 ± 0.0104 | 0.9535 ± 0.0100 | 0.3688 ± 0.0249 | 46.6 ± 0.1 | 15.93 |
+
+> 🏆 **En iyi model:** Qwen2.5-1.5B — Accuracy %96.4, ROUGE-1 0.408
+
+---
+
+## ⚙️ Kurulum
+
+### Gereksinimler
+
+- Python 3.11+
+- CUDA destekli GPU (eğitim için A100 önerilir)
+- Flutter 3.32+
+- Google Colab veya yerel GPU ortamı
+
+### Python bağımlılıkları
+
+```bash
+pip install -r requirements.txt
+```
+
+**requirements.txt:**
+```
+torch>=2.0.0
+transformers>=4.46.0
+peft>=0.13.0
+trl>=0.12.0
+accelerate>=1.0.0
+bitsandbytes>=0.46.1
+datasets>=3.1.0
+scikit-learn
+rouge-score
+pandas
+numpy
+matplotlib
+huggingface_hub
+```
+
+### Flutter bağımlılıkları
+
+```bash
+cd flutter_app
+flutter pub get
+```
+
+**pubspec.yaml bağımlılıkları:**
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  http: ^1.2.0
+```
+
+---
+
+## 🚀 Çalıştırma
+
+### 1. Veri Hazırlığı
+
+```bash
+# Google Colab'da çalıştırın
+python faz0_veri_hazirlik.py
+```
+
+Bu script:
+- Mevcut HF dataset'i yükler
+- %80/%10/%10 stratified bölme yapar (seed: 42, 123, 7)
+- ChatML ve Gemma4 formatlarına dönüştürür
+- `/content/datasets/seed_42/`, `/content/datasets/seed_123/`, `/content/datasets/seed_7/` klasörlerine kaydeder
+
+### 2. Zero-shot Baseline
+
+```bash
+python faz0_zeroshot_baseline.py
+```
+
+Çıktı: `/content/zeroshot_sonuclar/`
+- `zeroshot_ham.csv` — 4 model × 3 seed ham veriler
+- `zeroshot_ozet.csv` — ort ± std tablosu
+- `zeroshot_grafik.png` — karşılaştırma grafiği
+
+### 3. Fine-tuning
+
+Her model için ayrı script çalıştırın:
+
+```bash
+# Model A — SmolLM2-360M
+python faz1_smollm2_egitim.py
+
+# Model B — TinyLlama-1.1B
+python faz2_tinyllama_egitim.py
+
+# Model C — Qwen2.5-1.5B
+python faz3_qwen_egitim.py
+
+# Model D — Gemma4-E2B
+python faz4_gemma4_egitim.py
+```
+
+Her script otomatik olarak:
+- 3 seed (42, 123, 7) üzerinde eğitim yapar
+- Her seed için loss grafiği kaydeder
+- Test metrikleri hesaplar (Acc, F1, ROUGE-1, GPU bellek)
+- Ort ± std tablosu oluşturur
+- ZIP çıktısı alır
+
+### 4. Flutter Uygulaması
+
+```bash
+cd flutter_app
+
+# Geliştirme modunda çalıştır
+flutter run -d chrome
+
+# Web build al
+flutter build web --release
+
+# build/web klasörünü hosting'e yükle
+```
+
+**API URL ayarı** (`lib/main.dart`):
+```dart
+static const bool MOCK_MOD = false;
+static const String API_URL =
+    'https://haticenuryavas-akilli-tarim-api.hf.space/predict';
+```
+
+---
+
+## 📁 Proje Yapısı
+
+```
+akilli_tarim_app/
+│
+├── colab_scripts/
+│   ├── faz0_veri_hazirlik.py       # Veri bölme ve format dönüşümü
+│   ├── faz0_zeroshot_baseline.py   # Zero-shot ölçümü
+│   ├── faz1_smollm2_egitim.py      # SmolLM2 fine-tuning
+│   ├── faz2_tinyllama_egitim.py    # TinyLlama fine-tuning
+│   ├── faz3_qwen_egitim.py         # Qwen2.5 fine-tuning
+│   └── faz4_gemma4_egitim.py       # Gemma4-E2B fine-tuning
+│
+├── backend/
+│   ├── app.py                      # FastAPI backend
+│   ├── requirements.txt            # Python bağımlılıkları
+│   └── Dockerfile                  # HuggingFace Spaces için
+│
+├── flutter_app/
+│   ├── lib/
+│   │   └── main.dart               # Flutter uygulaması
+│   └── pubspec.yaml
+│
+├── requirements.txt                # Python bağımlılıkları
+└── README.md
+```
+
+---
+
+## 🌱 Seed Değerleri
+
+Tekrarlanabilirlik için tüm deneylerde aşağıdaki seed değerleri kullanılmıştır:
+
+```python
+SEEDS = [42, 123, 7]
+
+# Her scriptin başında:
+import random, numpy as np, torch
+random.seed(seed)
+np.random.seed(seed)
+torch.manual_seed(seed)
+```
+
+| Seed | Açıklama |
+|------|----------|
+| 42 | Birincil seed — model karşılaştırmalarında kullanılan |
+| 123 | İkincil seed |
+| 7 | Üçüncül seed |
+
+Sonuçlar 3 seed üzerinden **ort ± std** formatında raporlanmıştır.
+
+---
+
+## 📦 Veri Seti
+
+| Alan | Bilgi |
+|------|-------|
+| Kaynak | PlantVillage (Kaggle) |
+| Boyut | 1.461 benzersiz örnek |
+| Dil | Türkçe |
+| Sınıf sayısı | 19 |
+| Bölme | %80 train / %10 val / %10 test |
+| Format | ChatML (SmolLM2/TinyLlama/Qwen), Gemma4 Chat |
+| Lisans | Özel / Eğitim amaçlı |
+
+**Sınıf dağılımı:** Dengeli (min: 69, max: 84 örnek/sınıf)
+
+---
+
+## 🔌 API
+
+**Base URL:** `https://haticenuryavas-akilli-tarim-api.hf.space`
+
+### POST `/predict`
 
 | Alan | Tip | Açıklama |
-|---|---|---|
+|------|-----|----------|
 | `image` | file (opsiyonel) | Bitki fotoğrafı |
 | `text` | string (opsiyonel) | Belirti açıklaması |
 
-## Yanıt
+**Örnek istek:**
+```python
+import requests
 
+with open("bitki.jpg", "rb") as f:
+    r = requests.post(
+        "https://haticenuryavas-akilli-tarim-api.hf.space/predict",
+        files={"image": f},
+        data={"text": "yapraklarda kahverengi lekeler var"}
+    )
+print(r.json())
+```
+
+**Örnek yanıt:**
 ```json
 {
   "label": "Tomato___Early_blight",
   "label_turkce": "Domates Erken Yanıklığı",
   "confidence": 0.94,
-  "recete": "Alt yaprakları budayarak...",
+  "recete": "Alt yaprakları budayarak hava akımını artırın...",
   "kaynak": "ikisi_ayni",
   "detay": {
-    "goruntu": {"label": "...", "confidence": 0.96},
-    "metin":   {"label": "...", "confidence": 0.88}
+    "goruntu": {"label": "Tomato___Early_blight", "confidence": 0.96},
+    "metin":   {"label": "Tomato___Early_blight", "confidence": 0.88}
   }
 }
 ```
 
-## Modeller
+### GET `/health`
 
-- **Görüntü**: EfficientNet-B0 (PlantVillage fine-tuned)
-- **Metin**: Qwen2.5-1.5B + LoRA (haticenuryavas/qwen2.5-1.5b-tarim-lora-seed42)
+```bash
+curl https://haticenuryavas-akilli-tarim-api.hf.space/health
+```
+
+---
+
+## 🤗 HuggingFace
+
+| Model | Link |
+|-------|------|
+| Qwen2.5-1.5B (seed 42) | [haticenuryavas/qwen2.5-1.5b-tarim-lora-seed42](https://huggingface.co/haticenuryavas/qwen2.5-1.5b-tarim-lora-seed42) |
+| API Space | [haticenuryavas/akilli-tarim-api](https://huggingface.co/spaces/haticenuryavas/akilli-tarim-api) |
+
+---
+
+## 📄 Lisans
+
+Bu proje eğitim amaçlı geliştirilmiştir.
