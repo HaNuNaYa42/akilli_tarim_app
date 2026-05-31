@@ -1,16 +1,43 @@
-# akilli_tarim_app
+---
+title: Akilli Tarim API
+emoji: 🌱
+colorFrom: green
+colorTo: teal
+sdk: docker
+pinned: false
+---
 
-Büyük Dil Modelleri Bitirme Ödevi kapsamında yapılmış olan bir projedir. Çiftçinin resim ve metin olarak girdiği sorgulardan yola çıkarak modellenen bitki hastalığını teşhit eden bir uygulamadır.
+# Akıllı Tarım — Bitki Hastalığı Teşhis API
 
-## Getting Started
+Çiftçinin doğal dilde tarif ettiği belirtilerden ve/veya bitki fotoğrafından
+hastalık tahmini ve ilaçlama önerisi üreten hibrit AI API.
 
-This project is a starting point for a Flutter application.
+## Endpoint
 
-A few resources to get you started if this is your first Flutter project:
+**POST** `/predict`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Alan | Tip | Açıklama |
+|---|---|---|
+| `image` | file (opsiyonel) | Bitki fotoğrafı |
+| `text` | string (opsiyonel) | Belirti açıklaması |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Yanıt
+
+```json
+{
+  "label": "Tomato___Early_blight",
+  "label_turkce": "Domates Erken Yanıklığı",
+  "confidence": 0.94,
+  "recete": "Alt yaprakları budayarak...",
+  "kaynak": "ikisi_ayni",
+  "detay": {
+    "goruntu": {"label": "...", "confidence": 0.96},
+    "metin":   {"label": "...", "confidence": 0.88}
+  }
+}
+```
+
+## Modeller
+
+- **Görüntü**: EfficientNet-B0 (PlantVillage fine-tuned)
+- **Metin**: Qwen2.5-1.5B + LoRA (haticenuryavas/qwen2.5-1.5b-tarim-lora-seed42)
