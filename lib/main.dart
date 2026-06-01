@@ -50,7 +50,7 @@ class _AnaEkranState extends State<AnaEkran> {
   static const String API_URL =
       'https://haticenuryavas-akilli-tarim-api.hf.space/predict';
 
-  // Mock yanıt — UI testi için
+  // Mock yanıt  UI testi için
   Map<String, dynamic> _mockYanit() {
     final belirti = _belirtiController.text.toLowerCase();
     if (belirti.contains('pas') || belirti.contains('rust')) {
