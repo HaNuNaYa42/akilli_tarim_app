@@ -46,9 +46,6 @@ class _AnaEkranState extends State<AnaEkran> {
   bool _yukleniyor = false;
   final ImagePicker _picker = ImagePicker();
 
-  // ----------------------------------------------------------------
-  // Backend hazır olunca MOCK_MOD = false yapın ve API_URL'yi girin
-  // ----------------------------------------------------------------
   static const bool MOCK_MOD = false;
   static const String API_URL =
       'https://haticenuryavas-akilli-tarim-api.hf.space/predict';
